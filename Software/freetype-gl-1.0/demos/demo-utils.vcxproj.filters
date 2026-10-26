@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Stojan\source\repos\GraphicsWin\Software\freetype-gl-1.0\demos\mat4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Stojan\source\repos\GraphicsWin\Software\freetype-gl-1.0\demos\screenshot-util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Stojan\source\repos\GraphicsWin\Software\freetype-gl-1.0\demos\shader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Stojan\source\repos\GraphicsWin\Software\freetype-gl-1.0\demos\mat4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Stojan\source\repos\GraphicsWin\Software\freetype-gl-1.0\demos\screenshot-util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Stojan\source\repos\GraphicsWin\Software\freetype-gl-1.0\demos\shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Stojan\source\repos\GraphicsWin\Software\freetype-gl-1.0\demos\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8A537FF8-5E9D-3553-92C3-A43028B14B91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8611955D-9A6C-30E2-B26E-8F2959BD42A1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,26 @@
+﻿Stojan Bacvarovski (OpenGL Graphics Engine Error Documentation File) - 2025
+
+Engine Error Codes (Providing context for errors without specific code refrences)
+
+// ─────────────────────────────────────────────────────────────────────────────── //
+
+Notes:
+Negative Values indicate OpenGL related errors.
+
+Positive Values indicate Other software usage related errors.
+
+Often user error related but engine errors may miss checks that result in these.
+
+Some codes may not be added here but in the codebase itself where they are used.
+
+nullptr errors are included but you should check console output for tracebacks 
+since they are related to class specific related problems.
+
+ERROR─CODES───────────────────────────────────────────────File─Location────────────
+Error 1			= Initialization Error					(Core->Application)
+Error -15		= Error loading shader file/s			(Core->Shader)
+Error -16		= Error compiling shader/s				(Core->Shader)
+Error -17		= Error linking shader program			(Core->Shader)
+Error -1        = Shader program failed to generate     (Graphics->Shader) - unexpected error, this is caught outside of Shader class (usually in Scenes)
+nullptr 		= Failed to load model file             (Graphics->Mesh)
+Error 2         = Failed to load font file              (Graphics->UI)

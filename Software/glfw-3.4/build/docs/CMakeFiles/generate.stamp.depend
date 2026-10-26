@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.1/Modules/FindDoxygen.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/FindPackageMessage.cmake
+C:/Users/Stojan/source/repos/GraphicsWin/Software/glfw-3.4/docs/CMakeLists.txt
+C:/Users/Stojan/source/repos/GraphicsWin/Software/glfw-3.4/docs/Doxyfile.in

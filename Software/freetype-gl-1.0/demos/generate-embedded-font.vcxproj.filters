@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Stojan\source\repos\GraphicsWin\Software\freetype-gl-1.0\demos\CMakeFiles\e1a406d78aff644465b4b11184a692c6\vera-16.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Stojan\source\repos\GraphicsWin\Software\freetype-gl-1.0\demos\CMakeFiles\e9711666104f2f71e3ac22107fe7d9cc\generate-embedded-font.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Stojan\source\repos\GraphicsWin\Software\freetype-gl-1.0\demos\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Stojan\source\repos\GraphicsWin\Software\freetype-gl-1.0\demos\CMakeFiles\generate-embedded-font" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{27F308F5-AE32-3D37-A18B-46C01ED3A004}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

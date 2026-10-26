@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Stojan\source\repos\GraphicsWin\Software\freetype-gl-1.0\demos\CMakeFiles\e9711666104f2f71e3ac22107fe7d9cc\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{27F308F5-AE32-3D37-A18B-46C01ED3A004}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,8 @@
+C:/Users/Stojan/source/repos/GraphicsWin/Software/glfw-3.4/install/lib/glfw3.lib
+C:/Users/Stojan/source/repos/GraphicsWin/Software/glfw-3.4/install/include/GLFW/glfw3.h
+C:/Users/Stojan/source/repos/GraphicsWin/Software/glfw-3.4/install/include/GLFW/glfw3native.h
+C:/Users/Stojan/source/repos/GraphicsWin/Software/glfw-3.4/install/lib/cmake/glfw3/glfw3Config.cmake
+C:/Users/Stojan/source/repos/GraphicsWin/Software/glfw-3.4/install/lib/cmake/glfw3/glfw3ConfigVersion.cmake
+C:/Users/Stojan/source/repos/GraphicsWin/Software/glfw-3.4/install/lib/cmake/glfw3/glfw3Targets.cmake
+C:/Users/Stojan/source/repos/GraphicsWin/Software/glfw-3.4/install/lib/cmake/glfw3/glfw3Targets-release.cmake
+C:/Users/Stojan/source/repos/GraphicsWin/Software/glfw-3.4/install/lib/pkgconfig/glfw3.pc

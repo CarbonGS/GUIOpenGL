@@ -1,0 +1,56 @@
+﻿Engine/
+├── Core/               # Main engine logic
+│   ├── Application.h/.cpp
+│   ├── Window.h/.cpp
+│   └── Time.h/.cpp
+├── Graphics/           # Rendering pipeline
+│   ├── Renderer.h/.cpp
+│   ├── Shader.h/.cpp
+│   ├── Texture.h/.cpp
+│   └── Camera.h/.cpp
+├── Math/               # Custom math (or wrappers for GLM)
+│   ├── Math.h/.cpp
+│   └── Transform.h/.cpp
+├── Input/              # Input system
+│   └── InputManager.h/.cpp
+├── ECS/                # Entity Component System (optional)
+│   ├── Entity.h/.cpp
+│   ├── Component.h/.cpp
+│   └── System.h/.cpp
+├── Scenes/             # Scene management
+│   └── SceneManager.h/.cpp
+├── Resources/          # Asset handling (textures, models, sounds)
+│   └── ResourceManager.h/.cpp
+├── main.cpp
+└── CMakeLists.txt      # or project file
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Core/
+├── Application.h/.cpp      # Controls the game loop, engine lifecycle, and high-level coordination
+├── Window.h/.cpp           # Handles SDL window creation, OpenGL context, and surface management
+└── Time.h/.cpp             # Provides delta time tracking, fixed timestep updates, frame timing
+
+Graphics/
+├── Renderer.h/.cpp         # Controls draw calls, GPU state, and frame rendering
+├── Shader.h/.cpp           # Manages loading, compiling, and binding GLSL shader programs
+├── Texture.h/.cpp          # Loads and binds texture data from image files
+└── Camera.h/.cpp           # Builds projection and view matrices, handles camera movement
+
+Math/
+├── Math.h/.cpp             # Math utilities or wrappers for GLM (e.g. constants, conversions)
+└── Transform.h/.cpp        # Stores position, rotation, scale; calculates transformation matrix
+
+Input/
+└── InputManager.h/.cpp     # Polls input events from SDL, tracks keys/buttons state, mouse input
+
+ECS/  (optional)
+├── Entity.h/.cpp           # Represents game objects as IDs or handles
+├── Component.h/.cpp        # Stores data like Transform, MeshRenderer, etc.
+└── System.h/.cpp           # Operates on entities with certain component types (e.g. PhysicsSystem)
+
+Scenes/
+└── SceneManager.h/.cpp     # Manages loading/unloading and switching between scenes or levels
+
+Resources/
+└── ResourceManager.h/.cpp  # Loads and caches assets like shaders, models, and textures
